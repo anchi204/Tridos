@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+
+# Local data and checkpoints
+data/
+checkpoints/
+*.pth
+*.pt
+*.onnx
+
+# Colab / local outputs
+sample_predictions.png
