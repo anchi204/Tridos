@@ -1,0 +1,13 @@
+DATA_ROOT = "/content/data/ITSDT-15K"
+CHECKPOINT_DIR = "/content/drive/MyDrive/TridosColab/checkpoints"
+
+INPUT_SIZE = 512
+TIME_WINDOW = 5
+BATCH_SIZE = 4
+EPOCHS = 3
+INIT_LR = 1e-4
+FP16 = True
+
+TIME_BUDGET_MIN = 55
+VAL_RESERVE_MIN = 4
+VAL_MAX_BATCHES = 200
